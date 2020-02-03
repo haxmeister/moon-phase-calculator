@@ -20,6 +20,7 @@ while ($number_of_cycles){
 
 #my $json_pretty = $json->pretty->encode( \%cycles );
 #print $json_pretty;
+print"Date,Phase,Time\n";
 date_phase();
 
 sub add_cycle{
